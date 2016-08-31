@@ -2,7 +2,7 @@
 This is a SharePoint-JSOM app whose purpose is to provide a tutorial walkthrough of another SharePoint app.
 
 ## Requirements
-The app uses the Popover plugin in Bootstrap 3 as well as its stylesheets. It also interacts with a couple of SharePoint lists to perform its functions:
+The app uses the Popover plugin in Bootstrap 3 as well as its stylesheet. It also interacts with a couple of SharePoint lists to perform its functions:
 
 * TutorialTracker - tracks each user's usage of a walkthrough for every app and whether they have completed/opted out of the walkthrough. The list structure is as follows:
 ```
@@ -25,14 +25,14 @@ Message: Text field; Required - The walkthrough message.
 * Ensure the SharePoint lists are available.
 * Run the following javascript code:
 ```
-activateWalkthrough('*Your App Name here*');
+activateWalkthrough('*Your App Name*');
 ```
 The above function checks the TutorialTracker list and determines whether to run the walkthrough if the user has not completed it and has not chosen to opt out.
 
 ## Manually Trigger the Walkthrough
 Run the following javascript code:
 ```
-runWalkthrough('*Your App Name here*');
+runWalkthrough('*Your App Name*');
 ```
 
 ## Built With
@@ -43,7 +43,7 @@ runWalkthrough('*Your App Name here*');
 
 ## Authors
 
-* **Ray Juei-Fu Liu** - *Initial work* - [PurpleBooth](https://github.com/wolfdenoir)
+* **Ray Juei-Fu Liu** - [WolfDeNoir](https://github.com/wolfdenoir)
 
 ## License
 
