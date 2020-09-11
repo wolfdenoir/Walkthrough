@@ -34,7 +34,7 @@ The app uses JQuery and Bootstrap 3 as well as their stylesheets. It also intera
   initializeWalkthrough('*Walkthrough Name*');
   ```
 
-  The above function checks the WalkthroughTracker list and determines whether the current user has not completed it and has not chosen to opt out.
+  The above function queries the WalkthroughTracker list and determines whether the current user has not completed the walkthrough and has not chosen to opt out. It only runs the walkthrough when both conditions are met.
 
 ## Manually Trigger the Walkthrough
 
@@ -49,7 +49,7 @@ beginWalkthrough('*Walkthrough Name*');
 At anytime a single message can be displayed and any DOM elements can be highlighted by running the following code:
 
 ```
-showWalkBox(*Your Message*, *Step Number*, *JQuery Selector*);
+showWalkMessageBox(*Your Message*, *Step Number*, *JQuery Selector*);
 ```
 
 Only the first argument is required.
